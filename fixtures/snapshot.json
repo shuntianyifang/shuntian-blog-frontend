@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "fixture-v1",
+  "created_at": "2026-09-10T00:00:00Z",
+  "site_title": "顺天的博客",
+  "page_size": 5,
+  "posts": [
+    {
+      "slug": "hello-blog",
+      "title": "从一篇文章开始",
+      "summary": "记录博客重建的第一步，让文字成为可以长期保存的网页。",
+      "html": "<h2>你好，新的博客</h2>\n<p>这是一篇公开测试文章。即使关闭 JavaScript，也能读到这段正文。</p>\n<pre><code class=\"language-go\">fmt.Println(\"Hello, blog\")\n</code></pre>\n",
+      "published_at": "2026-09-10T00:00:00Z",
+      "category": { "slug": "development", "name": "开发记录" },
+      "tags": [
+        { "slug": "go", "name": "Go" },
+        { "slug": "vue", "name": "Vue" }
+      ]
+    }
+  ]
+}
